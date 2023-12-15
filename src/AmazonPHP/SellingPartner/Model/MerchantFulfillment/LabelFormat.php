@@ -27,6 +27,8 @@ class LabelFormat
 
     final public const ZPL300 = 'ZPL300';
 
+    final public const ZPL = 'ZPL';
+
     final public const SHIPPING_SERVICE_DEFAULT = 'ShippingServiceDefault';
 
     public function __construct(private readonly string $value)
@@ -45,6 +47,7 @@ class LabelFormat
             self::PNG,
             self::ZPL203,
             self::ZPL300,
+            self::ZPL,
             self::SHIPPING_SERVICE_DEFAULT,
         ];
     }
